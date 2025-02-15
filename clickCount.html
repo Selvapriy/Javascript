@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <button type="button" id="clickbtn">Click Me</button>
+        <p><span id="increase">0</span></p>
+    </form>
+</body>
+<script>
+    let btn = document.getElementById('clickbtn')
+    let count = 0;
+    btn.addEventListener('click',function(){
+        count++;
+        document.getElementById('increase').innerText = count;
+
+    });
+
+</script>
+</html>

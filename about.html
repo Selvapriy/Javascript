@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <img src="/images/autumn-fall-leaves-soft-background-with-copy-space-text_244157-2533.avif" width="100" height="100" id="img" onmouseover="changeOver()" onmouseout="changeBack()">
+</body>
+<script>
+
+function changeOver(){
+    let image = document.getElementById('img');
+
+    image.style.transition="1.5s";
+    image.style.width="200px";
+    image.style.height="200px";
+}
+
+function changeBack(){
+    let image = document.getElementById('img');
+
+    image.style.transition="1.5s";
+    image.style.width="100px";
+    image.style.height="100px";
+}
+
+//     function changeMe(){
+        
+//         document.getElementById("phara").innerHTML="This is a new text";
+    
+//         document.getElementById("phara").style.color="Green";
+//         document.getElementById("phara").style.fontWeight="700";
+
+//         document.getElementById("disp").innerHTML="This is a new text";
+    
+//         document.getElementById("disp").style.color="#ff0698";
+//         document.getElementById("disp").style.fontWeight="700";
+
+//     }
+
+//     function resetBut(){
+//         document.getElementById("phara").innerHTML="This is a original text";
+//         document.getElementById("phara").style.color="black";
+//         document.getElementById("phara").style.fontWeight="100";
+
+//         document.getElementById("disp").innerHTML="This is a original text";
+//         document.getElementById("disp").style.color="black";
+//         document.getElementById("disp").style.fontWeight="100";
+//     }
+
+//    function mouseOver(){
+//         document.getElementById('img').style.width="400px";
+//         document.getElementById('img').style.height="400px";
+//    };
+</script>
+</html>

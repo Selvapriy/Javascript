@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Bootcamp</title>
+    
+</head>
+<body >
+   <form method="post" >
+    <label>Number 1</label>
+    <input type="number" id="number1" name="number1" placeholder="Enter number One">
+    <label>Number 2</label>
+    <input type="number" id="number2" name="number2" placeholder="Enter number One">
+    <label>Result</label>
+    <input type="text" id="result" name="result">
+    <button type="button" id="add" onclick="addition()">Add</button>
+    <button type="button" id="sub">Subract</button>
+    <button type="button" id="multiply">multiply</button>
+    <button type="button" id="divide">Division</button>
+
+   </form> 
+    
+        
+   <script src="script.js">
+    
+   </script>
+</body>
+<script>
+    let number1 = document.getElementById('number1').value;
+    let number2 = document.getElementById('number2').value;
+    function addition(){
+        // let number1 = document.getElementById('number1').value;
+        // let number2 = document.getElementById('number2').value;
+
+        let sum = parseInt(number1) + parseInt(number2);
+
+        document.getElementById('result').value = sum;
+    }
+</script>
+
+    
+</html>
