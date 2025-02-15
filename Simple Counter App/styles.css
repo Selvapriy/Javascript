@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+.container {
+    margin-top: 100px;
+}
+
+
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    background-color: dodgerblue;
+    color: white;
+    border-radius: 5px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
